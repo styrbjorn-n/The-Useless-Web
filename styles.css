@@ -42,9 +42,6 @@ body {
   text-align: right;
   display: block;
 }
-.lightText {
-  cursor: pointer;
-}
-.darkText {
+h2 {
   cursor: pointer;
 }

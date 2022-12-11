@@ -28,11 +28,7 @@ function switchMode() {
   }
 }
 
-let lightText = document.querySelector('.lightText');
-
-if (!event == null){
-  document.querySelector('.darkText').addEventListener('click', (e)=>{
-    console.log(e.target.id)
-  });
-}
-
+const h2s = document.querySelectorAll('.h2');
+h2s.forEach((h2)=> {
+  h2.addEventListener('click', switchMode());
+});

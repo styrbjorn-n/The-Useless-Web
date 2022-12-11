@@ -42,13 +42,9 @@ body {
   text-align: right;
   display: block;
 }
-.lightBtn {
-  border: none;
-  font-size: xx-large;
+.lightText {
   cursor: pointer;
 }
-.darkbtn {
-  border: none;
-  font-size: xx-large;
+.darkText {
   cursor: pointer;
 }

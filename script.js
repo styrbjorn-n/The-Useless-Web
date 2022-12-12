@@ -1,9 +1,12 @@
+// define all the variabels that dont change
 const modeTracker = { isDarkmode: true, isLightmode: false };
-var darkContainer = document.querySelector(".darkContainer");
-var lightContainer = document.querySelector(".lightContainer");
-var darkSide = document.querySelector(".darkSide");
-var lightkSide = document.querySelector(".lightSide");
+const darkContainer = document.querySelector(".darkContainer");
+const lightContainer = document.querySelector(".lightContainer");
+const darkSide = document.querySelector(".darkSide");
+const lightkSide = document.querySelector(".lightSide");
 
+// switch mode could have been more efficient and not repeting
+// if i hade more time.
 function switchMode() {
   if (modeTracker.isDarkmode == true) {
     modeTracker.isDarkmode = false;
@@ -29,6 +32,9 @@ function switchMode() {
   }
 }
 
+// adds eventlisteners to the h2 elements and define there functions.
+// the mouseover and mouseout function could have been reduced to a
+// singel fucntion if i hade maneged my time better.
 let h2s = document.querySelectorAll("h2");
 h2s.forEach(function (h2) {
   h2.addEventListener("click", function () {

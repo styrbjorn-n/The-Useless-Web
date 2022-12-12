@@ -58,9 +58,10 @@ body {
   padding: 15px;
   grid-column: 3/5;
   grid-row: 1/4;
-  text-align: right; /* this would be changed if i hade enouf time. as now the text has the width of the entire container */
+  text-align: right; /* this would be changed if i hade enouf time. as now the text has the width of the entire container. */
   display: block;
 }
 h2 {
   cursor: pointer;
 }
+/* i would have added animatons here if i hade the time. */

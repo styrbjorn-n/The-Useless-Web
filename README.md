@@ -3,7 +3,7 @@
 This project is for my asignment the useless web and in my eyes there is nothing more useless than a function 
 built from scratch when it already exists in one form or another.
 
- github pages :https://styrbjorn-n.github.io/The-Useless-Web/
+github pages :https://styrbjorn-n.github.io/The-Useless-Web/
 netlify :https://uselesslightanddark.netlify.app/
 
 # Code Review

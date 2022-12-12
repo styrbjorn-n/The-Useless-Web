@@ -1,8 +1,9 @@
 INSERT MANDATORY GIF
 
-# Project Title
+# The Useless Web
 
-Text about the project. This would also be a great place to link the game on Netlify.
+This project is for my asignment the useless web and in my eyes there is nothing more useless than a function 
+built from scratch when it already exists in one form or another.
 
 # Installation
 

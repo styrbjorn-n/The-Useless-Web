@@ -7,10 +7,6 @@ built from scratch when it already exists in one form or another.
 
 https://styrbjorn-n.github.io/The-Useless-Web/
 
-# Installation
-
-Add the installation instructions.
-
 # Code Review
 
 1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.

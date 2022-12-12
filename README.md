@@ -19,4 +19,4 @@ netlify :https://uselesslightanddark.netlify.app/
 Tested by the following people:
 
 1. Jonas
-2. John Doe
+2. Mangnus

@@ -1,5 +1,3 @@
-INSERT MANDATORY GIF
-
 # The Useless Web
 
 This project is for my asignment the useless web and in my eyes there is nothing more useless than a function 

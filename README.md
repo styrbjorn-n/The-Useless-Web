@@ -7,12 +7,14 @@ github pages :https://styrbjorn-n.github.io/The-Useless-Web/
 netlify :https://uselesslightanddark.netlify.app/
 
 # Code Review
+Code review by: Jonas Mårtensson
 
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
+1. Overall great and fun project without any major coding errors.
+2. index.html: 10 - code body easy to follow but why have you made it a class?
+3. styles.css:1-67 - Instead of one big file for you styling you could brake it down into smaller files that would make it easier to read and find a specific styling.
+4. script.js: the function switchMode() could be built easier.
+5. You use different types of event listeners as described in the assignment.
+6. The mobile version is not exactly the same as the desktop version because of event listeners but works well anyway.
 
 # Testers
 

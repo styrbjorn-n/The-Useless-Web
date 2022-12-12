@@ -19,5 +19,5 @@ https://styrbjorn-n.github.io/The-Useless-Web/
 
 Tested by the following people:
 
-1. Jane Doe
+1. Jonas
 2. John Doe

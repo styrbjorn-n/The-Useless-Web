@@ -1,6 +1,8 @@
 const modeTracker = { isDarkmode: true, isLightmode: false };
 var darkContainer = document.querySelector(".darkContainer");
 var lightContainer = document.querySelector(".lightContainer");
+var darkSide = document.querySelector(".darkSide");
+var lightkSide = document.querySelector(".lightSide");
 
 function switchMode() {
   if (modeTracker.isDarkmode == true) {
@@ -34,18 +36,22 @@ h2s.forEach(function (h2) {
   });
   h2.addEventListener("mouseover", function () {
     if (this.parentElement == darkContainer) {
-      this.parentElement.classList.add('lightmode');
+      this.parentElement.classList.add("lightmode");
+      darkSide.classList.add("lightmode");
     }
     if (this.parentElement == lightContainer) {
-      this.parentElement.classList.add('darkmode')
+      this.parentElement.classList.add("darkmode");
+      lightkSide.classList.add('darkmode');
     }
   });
-  h2.addEventListener("mouseout", function() {
+  h2.addEventListener("mouseout", function () {
     if (this.parentElement == darkContainer) {
-      this.parentElement.classList.remove('lightmode');
+      this.parentElement.classList.remove("lightmode");
+      darkSide.classList.remove("lightmode");
     }
     if (this.parentElement == lightContainer) {
-      this.parentElement.classList.remove('darkmode')
+      this.parentElement.classList.remove("darkmode");
+      lightkSide.classList.remove('darkmode');
     }
-  })
+  });
 });
